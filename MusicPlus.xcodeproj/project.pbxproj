@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3597470E1C173AC1005BE3B6 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597470D1C173AC0005BE3B6 /* ChannelViewController.swift */; };
+		35AE7E2A1C1837B1002459F8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE7E291C1837B1002459F8 /* SwiftyJSON.swift */; };
+		35AE7E2C1C1837E5002459F8 /* HTTPControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE7E2B1C1837E5002459F8 /* HTTPControl.swift */; };
+		35AE7E461C186A50002459F8 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35AE7E1B1C18377D002459F8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35AE7E4B1C1876FE002459F8 /* Playbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE7E4A1C1876FE002459F8 /* Playbutton.swift */; };
 		35F532C81C17031B00215666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F532C71C17031B00215666 /* AppDelegate.swift */; };
 		35F532CA1C17031B00215666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F532C91C17031B00215666 /* ViewController.swift */; };
 		35F532CD1C17031B00215666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F532CB1C17031B00215666 /* Main.storyboard */; };
@@ -18,6 +23,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35AE7E1A1C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		35AE7E1C1C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		35AE7E1E1C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		35AE7E201C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		35AE7E221C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		35AE7E241C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		35AE7E261C18377D002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		35AE7E471C186A50002459F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		35F532D91C17031B00215666 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35F532BC1C17031B00215666 /* Project object */;
@@ -34,7 +95,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		35AE7E491C186A50002459F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				35AE7E461C186A50002459F8 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3597470D1C173AC0005BE3B6 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "MusicPlus/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		35AE7E291C1837B1002459F8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = MusicPlus/SwiftyJSON.swift; sourceTree = "<group>"; };
+		35AE7E2B1C1837E5002459F8 /* HTTPControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPControl.swift; sourceTree = "<group>"; };
+		35AE7E4A1C1876FE002459F8 /* Playbutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playbutton.swift; sourceTree = "<group>"; };
 		35F532C41C17031B00215666 /* MusicPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F532C71C17031B00215666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35F532C91C17031B00215666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +156,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AE7E111C18377D002459F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35AE7E1B1C18377D002459F8 /* Alamofire.framework */,
+				35AE7E1D1C18377D002459F8 /* Alamofire iOS Tests.xctest */,
+				35AE7E1F1C18377D002459F8 /* Alamofire.framework */,
+				35AE7E211C18377D002459F8 /* Alamofire OSX Tests.xctest */,
+				35AE7E231C18377D002459F8 /* Alamofire.framework */,
+				35AE7E251C18377D002459F8 /* Alamofire tvOS Tests.xctest */,
+				35AE7E271C18377D002459F8 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		35F532BB1C17031B00215666 = {
 			isa = PBXGroup;
 			children = (
+				35AE7E291C1837B1002459F8 /* SwiftyJSON.swift */,
+				35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */,
 				35F532C61C17031B00215666 /* MusicPlus */,
 				35F532DB1C17031B00215666 /* MusicPlusTests */,
 				35F532E61C17031B00215666 /* MusicPlusUITests */,
@@ -106,6 +202,9 @@
 				35F532D01C17031B00215666 /* LaunchScreen.storyboard */,
 				35F532D31C17031B00215666 /* Info.plist */,
 				35F532F71C17108F00215666 /* AlbumImage.swift */,
+				3597470D1C173AC0005BE3B6 /* ChannelViewController.swift */,
+				35AE7E2B1C1837E5002459F8 /* HTTPControl.swift */,
+				35AE7E4A1C1876FE002459F8 /* Playbutton.swift */,
 			);
 			path = MusicPlus;
 			sourceTree = "<group>";
@@ -138,10 +237,12 @@
 				35F532C01C17031B00215666 /* Sources */,
 				35F532C11C17031B00215666 /* Frameworks */,
 				35F532C21C17031B00215666 /* Resources */,
+				35AE7E491C186A50002459F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				35AE7E481C186A50002459F8 /* PBXTargetDependency */,
 			);
 			name = MusicPlus;
 			productName = MusicPlus;
@@ -221,6 +322,12 @@
 			mainGroup = 35F532BB1C17031B00215666;
 			productRefGroup = 35F532C51C17031B00215666 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35AE7E111C18377D002459F8 /* Products */;
+					ProjectRef = 35AE7E101C18377D002459F8 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				35F532C31C17031B00215666 /* MusicPlus */,
@@ -229,6 +336,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		35AE7E1B1C18377D002459F8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 35AE7E1A1C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E1D1C18377D002459F8 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 35AE7E1C1C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E1F1C18377D002459F8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 35AE7E1E1C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E211C18377D002459F8 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 35AE7E201C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E231C18377D002459F8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 35AE7E221C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E251C18377D002459F8 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 35AE7E241C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35AE7E271C18377D002459F8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 35AE7E261C18377D002459F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		35F532C21C17031B00215666 /* Resources */ = {
@@ -264,7 +423,11 @@
 			files = (
 				35F532CA1C17031B00215666 /* ViewController.swift in Sources */,
 				35F532F81C17108F00215666 /* AlbumImage.swift in Sources */,
+				3597470E1C173AC1005BE3B6 /* ChannelViewController.swift in Sources */,
+				35AE7E2A1C1837B1002459F8 /* SwiftyJSON.swift in Sources */,
 				35F532C81C17031B00215666 /* AppDelegate.swift in Sources */,
+				35AE7E4B1C1876FE002459F8 /* Playbutton.swift in Sources */,
+				35AE7E2C1C1837E5002459F8 /* HTTPControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +450,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		35AE7E481C186A50002459F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 35AE7E471C186A50002459F8 /* PBXContainerItemProxy */;
+		};
 		35F532DA1C17031B00215666 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 35F532C31C17031B00215666 /* MusicPlus */;
@@ -406,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MusicPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BubbleTeam.MusicPlus;
@@ -417,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MusicPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BubbleTeam.MusicPlus;
@@ -491,6 +661,7 @@
 				35F532EE1C17031B00215666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F532EF1C17031B00215666 /* Build configuration list for PBXNativeTarget "MusicPlusTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +670,7 @@
 				35F532F11C17031B00215666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F532F21C17031B00215666 /* Build configuration list for PBXNativeTarget "MusicPlusUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +679,7 @@
 				35F532F41C17031B00215666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
